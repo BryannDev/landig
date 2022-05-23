@@ -1,0 +1,38 @@
+html {
+  background-color: hsl(240, 92%, 21%);
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* img {
+  width: 20px;
+  height: 20px;
+} */
+
+section aside {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: flex-start;
+}
+section p {
+  font-size: 15px;
+}
+section h1 {
+  font-size: 35px;
+}
+section h4 {
+  font-size: 25px;
+}
+.img-section {
+  position: relative;
+}
+.imagem-principal {
+  position: absolute;
+  left: 29rem;
+  top: -20rem;
+  width: 55%;
+}
